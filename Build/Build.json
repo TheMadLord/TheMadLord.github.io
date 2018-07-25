@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "SSI-prototype",
+"productName": "SSI-Simulation",
 "dataUrl": "Build.data.unityweb",
 "asmCodeUrl": "Build.asm.code.unityweb",
 "asmMemoryUrl": "Build.asm.memory.unityweb",
