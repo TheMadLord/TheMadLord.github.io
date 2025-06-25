@@ -132,13 +132,7 @@ document.body.innerHTML += "<pre style=\"color: green; background-color: black\"
 var id = '1n-rjSYb63Z2jySS3-M0BQ78vu8DTPOjG-SZM4i8IxXI';
 var gid = '0';
 var url = 'https://docs.google.com/spreadsheets/d/'+id+'/gviz/tq?tqx=out:json&tq&gid='+gid;
-fetch(url, {
-				method: 'GET',
-				credentials: 'include',
-				headers: {
-					'Access-Control-Allow-Origin':""
-				},
-				mode:'cors'})
+fetch(url)
   .then(response => response.text())
   .then(data => document.getElementById("json").innerHTML=myItems(data.slice(47, -2))  
   );
