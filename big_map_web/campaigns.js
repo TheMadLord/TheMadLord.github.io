@@ -129,10 +129,10 @@ data =  get_camgaign_data();
 document.body.innerHTML += "<pre style=\"color: green; background-color: black\">"
 +get_campaign_text(data)+"</pre> <p>" + get_date_string() + "</p>";
 
-var id = '1n-rjSYb63Z2jySS3-M0BQ78vu8DTPOjG-SZM4i8IxXI';
-var gid = '0';
-var url = 'https://docs.google.com/spreadsheets/d/'+id+'/gviz/tq?tqx=out:json&tq&gid='+gid;
-fetch(url)
-  .then(response => response.text())
-  .then(data => document.getElementById("json").innerHTML=myItems(data.slice(47, -2))  
-  );
+// var id = '1n-rjSYb63Z2jySS3-M0BQ78vu8DTPOjG-SZM4i8IxXI';
+// var gid = '0';
+// var url = 'https://docs.google.com/spreadsheets/d/'+id+'/gviz/tq?tqx=out:json&tq&gid='+gid;
+// fetch(url)
+//   .then(response => response.text())
+//   .then(data => document.getElementById("json").innerHTML=myItems(data.slice(47, -2))  
+//   );
