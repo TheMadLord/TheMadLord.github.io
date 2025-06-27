@@ -1,5 +1,5 @@
 import googleSpreadsheets from 'https://cdn.jsdelivr.net/npm/google-spreadsheets@2.0.0/+esm'
-const {JWT} = require('google-auth-library');
+import {JWT}  from 'google-auth-library';
 
 function get_date_string(){
     let d = new Date();
