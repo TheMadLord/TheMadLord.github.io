@@ -20,8 +20,8 @@ function get__moch_camgaign_data()
             {name:"Game 5", value: 3000, winner: 1},
             {name:"Game 6", value: 1200, winner: 1},
         ]
-    }
-    return data
+    };
+    return data;
 }
 
 
